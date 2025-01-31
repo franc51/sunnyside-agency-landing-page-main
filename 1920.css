@@ -1,0 +1,33 @@
+.sunnyside_container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('files/images/desktop/image-header.jpg');
+    background-repeat: no-repeat;
+    background-position: -45rem -35rem;
+    padding: 2rem 3rem;
+}
+.sunnyside_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(245, 240, 240);
+}
+.sunnyside_logo {
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+.sunnyside_link_list {
+    display: flex;
+    gap: 2rem;
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: 18px;
+    align-items: center;
+}
+.sunnyside_link_button {
+    background-color: white;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    color: black;
+}

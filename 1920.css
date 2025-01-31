@@ -3,8 +3,10 @@
     height: 100vh;
     background-image: url('files/images/desktop/image-header.jpg');
     background-repeat: no-repeat;
-    background-position: -45rem -35rem;
+    background-position: center;
     padding: 2rem 3rem;
+    text-align: center;
+    position: relative;
 }
 .sunnyside_nav {
     display: flex;
@@ -18,16 +20,38 @@
 }
 .sunnyside_link_list {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     text-decoration: none;
     list-style-type: none;
     font-weight: 600;
     font-size: 18px;
     align-items: center;
 }
+.sunnyside_link_item:hover {
+    color: white;
+    cursor: pointer;
+}
 .sunnyside_link_button {
     background-color: white;
     padding: 1rem 3rem;
     border-radius: 2rem;
     color: black;
+    font-family: "Fraunces";
+    font-size: 1rem;
+}
+.sunnyside_link_button:hover {
+    background-color: hsl(194, 100%, 72%);
+    color: white;
+}
+.sunnyside_slogan {
+    color: white;
+    font-size: 3.5rem;
+    margin-top: 5rem;
+    font-family: "Fraunces";
+    letter-spacing: 0.8rem;
+}
+.sunnyside_slogan_arrow {
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }

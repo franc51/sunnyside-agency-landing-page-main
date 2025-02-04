@@ -177,7 +177,7 @@
   font-size: 15px;
   font-family: "Fraunces";
   padding: 0 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
 }
 .sunnyside_testimonial {
   display: flex;
@@ -209,6 +209,44 @@
   font-family: "Freunces";
   color: hsl(210, 4%, 67%);
 }
+
+/* Image gallery footer */
+
+.sunnyside_footer_images_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.sunnyside_footer_images_container img {
+  width: 25%;
+  height: auto;
+}
+
+.sunnyside_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0;
+  background-color: hsl(168, 68%, 70%);
+}
+.sunnyside_footer_social_links {
+  display: flex;
+  gap: 2rem;
+  text-decoration: none;
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 18px;
+  align-items: center;
+}
+.sunnyside_footer_title {
+  font-size: 2rem;
+  color: hsl(167, 41%, 31%);
+  font-weight: 900;
+}
+
 @media screen and (min-width: 1920px) {
   .sunnyside_container {
     padding: 2rem 10rem;
@@ -228,5 +266,16 @@
     font-family: "Fraunces";
     padding: 0 22rem;
     padding-bottom: 3rem;
+  }
+  .sunnyside_footer_images_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 2rem 15rem;
+  }
+  .sunnyside_footer_images_container img {
+    width: 25%;
+    height: auto;
   }
 }

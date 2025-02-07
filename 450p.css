@@ -16,9 +16,10 @@
   justify-content: space-between;
   align-items: center;
   color: rgb(245, 240, 240);
+  padding: 1rem;
 }
 .sunnyside_logo {
-  font-size: 2.2rem;
+  font-size: 1.8rem;
   font-weight: 900;
   cursor: pointer;
 }
@@ -49,16 +50,17 @@
 .sunnyside_slogan {
   text-align: center;
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 900;
-  margin-top: 30%;
+  margin-top: 10%;
   font-family: "Fraunces";
   letter-spacing: 0.8rem;
 }
 .sunnyside_slogan_arrow {
   position: absolute;
   left: 50%;
-  top: 48%;
+  top: 60%;
+  height: 4rem;
 }
 
 /* Second container */
@@ -268,8 +270,12 @@
 }
 #menuOpen {
   position: relative;
-  left: 15rem;
-  background-color: #2c7566;
+  left: 0;
+  background-image: url('files/images/icon-hamburger.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: #3EBFFF;
 }
 .modal {
   position: fixed;

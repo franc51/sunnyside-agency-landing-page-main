@@ -263,6 +263,38 @@
 .social_icons:hover {
   fill: aliceblue;
 }
+.menu-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: none;
+  }
+  #menuOpen {
+    position: relative;
+    left: 15rem;
+    background-color: #2c7566;
+    display: none;
+  }
+  .modal {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 300px;
+    height: 100%;
+    background: rgb(77, 49, 49);
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: right 0.3s ease;
+    display: none;
+  }
+  .showModal {
+    right: 0%;
+  }
+  .hideModal {
+    right: -100%;
+  }
 @media screen and (min-width: 1920px) {
   .sunnyside_container {
     padding: 2rem 10rem;

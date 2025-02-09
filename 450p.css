@@ -303,6 +303,26 @@
   top: -2rem;
   right: 0;
 }
+.sunnyside_link_list_mobile {
+  color: rgb(161, 161, 161);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin: 4rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.sunnyside_link_item {
+}
+.sunnyside_link_button_mobile {
+  background-color: yellow;
+  padding: 1.3rem;
+  border-radius: 3rem;
+  color: black;
+  font-weight: 900;
+  font-family: "Freunces";
+  margin: 0 2.2rem;
+}
 
 @media screen and (min-width: 1920px) {
   .sunnyside_container {

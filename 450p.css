@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .sunnyside_container {
@@ -271,27 +272,36 @@
 #menuOpen {
   position: relative;
   left: 0;
-  background-image: url('files/images/icon-hamburger.svg');
+  background-image: url("files/images/icon-hamburger.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-color: #3EBFFF;
+  background-color: #3ebfff;
 }
 .modal {
   position: fixed;
-  top: 0;
-  right: -100%;
-  width: 300px;
-  height: 100%;
-  background: rgb(77, 49, 49);
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+  top: 6rem;
+  width: 90vw;
+  height: 40vh;
+  background: rgb(255, 255, 255);
   transition: right 0.3s ease;
+  overflow: visible;
 }
 .showModal {
-  right: 0%;
+  right: 6%;
 }
 .hideModal {
   right: -100%;
+}
+.nav_triangle {
+  width: 0;
+  height: 0;
+  border-left: 2rem solid transparent;
+  border-right: 0 solid transparent;
+  border-bottom: 2rem solid rgb(255, 255, 255);
+  position: absolute;
+  top: -2rem;
+  right: 0;
 }
 
 @media screen and (min-width: 1920px) {
